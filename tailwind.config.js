@@ -10,6 +10,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "cera-round": ["Cera Round Pro", "sans-serif"],
+      },
+      fontWeight: {
+        "cera-regular": 400,
+        "cera-medium": 500,
+        "cera-bold": 700,
+      },
       animation: {
         "spin-slow": "spin 3s linear infinite",
       },
