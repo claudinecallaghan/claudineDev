@@ -8,10 +8,11 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
-        "cera-round": ["Cera Round Pro", "sans-serif"],
+        "cera-round": ["Cera Round Pro", "Helvetica", "Arial", "sans-serif"],
       },
       fontWeight: {
         "cera-regular": 400,

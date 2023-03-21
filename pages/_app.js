@@ -7,6 +7,9 @@ import Wrapper from "../components/Wrapper";
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Claudine</title>
+      </Head>
       <Wrapper>
         <Component {...pageProps} />
       </Wrapper>
